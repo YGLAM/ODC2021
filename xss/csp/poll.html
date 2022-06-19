@@ -1,0 +1,63 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" conent="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NECSToodle</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="/static/css.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="header clearfix">
+        <h3 class="text-muted">NECSToodle <small>scheduling has never been so <b>vulnerable</b>!</small></h3>
+    </div>
+
+<h2>aaa <small><b>where: </b>bbb</h2>
+
+<p>ccc</p>
+
+<h3>Hey, why don't you pick a time?</h3>
+
+<table class="table">
+  <thead>
+    <tr>
+    <th><i>Name</i></th>
+    <th>d
+</th>
+    <th>e
+</th>
+    <th>f</th>
+    </tr>
+  </thead>
+  <tbody>
+    <form method="post" enctype="multipart/form-data" action="/choose">
+    <tr>
+        <input type="hidden" name="poll" value="698e1d35bd4e408ab3e7d54bfbeedae6">
+        <th scope="row">Name: <input type="text" name="name"></th>
+        <td><input type="checkbox" name="1293" value="True"></td>
+        <td><input type="checkbox" name="1294" value="True"></td>
+        <td><input type="checkbox" name="1295" value="True"></td>
+        <td><button type="submit">+</button></td>
+    </tr>
+    </form>
+  </tbody>
+</table>
+
+<h3>Comments</h3>
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="name">Name</label><input class="form-control" id="name" name="name" type="text"/>
+<label for="comment">Comment</label><textarea class="form-control" id="comment" name="comment"></textarea>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Increase the universe's entropy!</button>
+    <button type="submit" name="close" class="btn btn-primary">Close doodle and send to admin!</button>
+</form>
+
+
+</div>
+</body>
+</html>

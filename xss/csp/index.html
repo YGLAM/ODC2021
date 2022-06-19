@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" conent="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NECSToodle</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="/static/css.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="header clearfix">
+        <h3 class="text-muted">NECSToodle <small>scheduling has never been so <b>vulnerable</b>!</small></h3>
+    </div>
+
+<h1>NECSToodle complicates scheduling!</h1>
+<p>This is the scheduling tool you're never going to use.
+    We wrote it just to waste our (and your) time.
+    We heard that Javascript is vulnerable, so we stuck with plain, old, boooooring HTML forms.
+    Have fun!</p>
+
+<h2>Schedule an event now!</h2>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="title">Title</label><input class="form-control" id="title" name="title" type="text"/>
+<label for="location">Location</label><input class="form-control" id="location" name="location" type="text"/>
+<label for="description">Description</label><textarea class="form-control" id="description" name="description"></textarea>
+<label for="proposals">Choices (one per line)</label><textarea class="form-control" id="proposals" name="proposals"></textarea>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Send!</button>
+</form>
+
+</div>
+</body>
+</html>
