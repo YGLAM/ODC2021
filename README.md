@@ -1,2 +1,2 @@
 # ODC2021
-Offensive and Defensive Cybersecurity at Polimi 2021-2022
+A list of the completed challenge complete during the course Offensive and Defensive Cybersecurity during the academic year 2021/2022
